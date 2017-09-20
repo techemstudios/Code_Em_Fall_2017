@@ -180,7 +180,7 @@ Temperature warnings program.
 ### Simple Command Response  
 
 command_response.py  
-The Power of Python  
+[The Power of Python](http://techemstudios.com/decks/slackpi-to-alexa/#/)
 
 ### Data Structures  
 #### Python Lists, Tuples, Dictionaries  
