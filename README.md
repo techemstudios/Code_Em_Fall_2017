@@ -24,9 +24,11 @@ By the end of Code Em, students will -
 `09/19/2017`  
 
 **Introductions:** Share name, age, grade, and programming experience.  
+*5-10min*
 
 ### How to Think  
 #### Like a Computer Scientist  
+*10min*  
 
 Take a problem that at first, may seem overwhelming, or not "attackable" with a program, then break the problem into smaller manageable problems where we can use computation to solve. See how the smaller problems together make up the larger one. Think about computational thinking as useful ways to approach and solve problems using these steps: decomposition, generalization, recognize patterns, make plan (or algorithm) and carry it out. Example, Clean the Whole House problem.  
 
@@ -44,17 +46,21 @@ Take a problem that at first, may seem overwhelming, or not "attackable" with a 
 | Objects      | Pygame           |
 | Classes      | Alexa Skills     |
 
-### Get on the Same Page  
+### Get on Same Page  
+*5min*  
 
 We have returning students, as well as new students. We will do a little review first and help eachother to become equally confident with coding.  
 
 ### GitHub & Slack  
+*10min*
 
 Each student will create their our own GitHub and Slack accounts. For those who already have both, make sure they can log in and have them help their peers get set up. Students will use their GitHub account to keep track of all their progress. There should be a time set towards the end of each class to have every student push their code to their own repository. Slack will be used to communicate with one another by asking questions, input, etc. Record student emails, to send slack invitations; record GitHub usernames, to invite to slackbot repo.
 
 ### What are Computers?
 
 ### Quick Computer History  
+
+*5-10min*
 
 Early computers were tools (or mechanical devices) people used to help them calculate math problems. A modern computer is a device that can be programmed to perform a task. From Talley Sticks, to the Babbage Machine --end with Ada Lovelace, recognized as the first computer programmer.  
 
@@ -100,8 +106,24 @@ We saw this earlier when we typed an expression at the prompt, the interpreter e
 ### User Input
 #### I/O  
 
+### Computational Thinking  
+
+Useful ways to approach and solve problems --not just problems involving programming, but every problem! 
+
 
 ### Layers of a Computer System  
+#### Abstraction  
+
+When we are working in one layer, we do not need to concern ourselves with the information in the surrounding layers. This way, we can just focus on what needs to be done in the moment. Think of abstraction as a mental model; a way to think about something. Have the unnecessary details hidden, so we can leave only the information we need to complete our goal.  
+
+Abstraction Examples:  
+
+* A Person Driving a Car  
+  - The only thing they need to focus on is the road ahead. 
+  - It is unnecessary to worry about details of how the engine or electornics of the car work.
+  
+* Fast Food Restaurant  
+  - 
 
 
 ### Functions  
