@@ -123,7 +123,8 @@ Abstraction Examples:
   - It is unnecessary to worry about details of how the engine or electornics of the car work.
   
 * Fast Food Restaurant  
-  - 
+  - At many restaurants, the names of meals have corresponding numbers.
+  - The food prep has been trained to recognize the meal number, not worry about the full name.
 
 
 ### Functions  
@@ -212,7 +213,8 @@ Calling on objects in graphics.py
 Drawing a set of points to a window, shapes, then clickable buttons.  
 
 ### Interactive Graphics  
-### Getting Mouse Clicks  
+
+#### Register Mouse Clicks  
 
 Create a program that tracks the coordinates of ten consecutive mouse clicks by the user. Prerequisites: definining functions, for loops, calling object methods.
 
@@ -230,6 +232,16 @@ def main():
 main()
 
 ```  
+
+#### Triangle  
+
+Create a program that draws a triangle after the user clicks three points on the window.  
+
+#### Adding GUI to our Temperature Converter Program  
+
+Use the same logic from the temperature converter program and add a graphical user interface, complete with buttons and text input from the user. Once it works, add multi-way condition logic to output temperature warnings.
+
+
 
 ### Write to Files and Read Files  
 #### json.dump() & json.load()
