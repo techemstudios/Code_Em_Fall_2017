@@ -214,6 +214,23 @@ Drawing a set of points to a window, shapes, then clickable buttons.
 ### Interactive Graphics  
 ### Getting Mouse Clicks  
 
+Create a program that tracks the coordinates of ten consecutive mouse clicks by the user. Prerequisites: definining functions, for loops, calling object methods.
+
+```python    
+# Make sure you have graphics.py
+
+from graphics import *
+
+def main():
+    win = GraphWin("Click Me!")
+    for i in range(10):
+        p = win.getMouse()
+        print("You clicked at: ", p.getX(), p.getY())
+
+main()
+
+```  
+
 ### Write to Files and Read Files  
 #### json.dump() & json.load()
 
