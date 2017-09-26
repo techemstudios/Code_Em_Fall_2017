@@ -147,7 +147,17 @@ Let's combine variables and strings.
 
 ### Computational Thinking  
 
-Useful ways to approach and solve problems --not just problems involving programming, but every problem! 
+Useful ways to approach and solve problems --not just problems involving programming, but every problem!  
+
+* Decompose
+  - divide & conquer: break down the problem into smaller problems
+* Generalize  
+  - see how the smaller tasks make up the larger one
+* Recognize Patterns  
+  - decide which parts repeat
+* Algorithm Design
+  - make a plan to solve the problem
+  - carry it out  
 
 ### Layers of a Computer System  
 #### Abstraction  
