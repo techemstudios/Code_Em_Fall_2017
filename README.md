@@ -131,7 +131,7 @@ or
 print(a+b)  
 ```  
 
-Look at the whole program. Can you find the statement three statements, expression, and two integers?
+Look at the whole program. Can you find the three statements, expression, and two integers?
 ```python  
 a = 5  
 b = 10  
