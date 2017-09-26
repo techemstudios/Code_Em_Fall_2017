@@ -56,7 +56,7 @@ We have returning students, as well as new students. We will do a little review 
 
 Each student will create their our own GitHub and Slack accounts. For those who already have both, make sure they can log in and have them help their peers get set up. Students will use their GitHub account to keep track of all their progress. There should be a time set towards the end of each class to have every student push their code to their own repository. Slack will be used to communicate with one another by asking questions, input, etc. Record student emails, to send slack invitations; record GitHub usernames, to invite to slackbot repo.
 
-### What are Computers?
+### What are Computers?  
 
 ### Quick Computer History  
 
@@ -73,7 +73,7 @@ Computers are devices for manipulating information we can put info into a comput
 
 A program is a set of instructions that causes a computer to perform some kind of action, or a set of commands that tell the hardware in a computer what to do.
 
-### Making Programs for the Computer  
+### Making Programs for the Computer to Carry Out  
 
 #### Python  
 
@@ -83,11 +83,17 @@ A program is a set of instructions that causes a computer to perform some kind o
 * Data Types  
 * Variables  
 
+### Variables & Strings  
+
+### Day Two  
+
+`09/26/2017`  
+
 ### Fetch, Decode, Exectute  
 
-#### How a Program Works    
+#### How a Program Works  
 
-Software communicating with the hardware. CPU, RAM, and what happens when you fire up your favorite program. Fetch: the computer gets the instructions and puts them in RAM; Decode: instructions are decoded into binary so the CPU can understand them; Execute: CPU carries out those instructions. The computer speedily performs this process continuously from the moment you turn on your computer, to the moment you turn it off.
+Software communicating with the hardware. CPU, RAM, and what happens when you fire up your favorite program. Fetch: the computer gets the instructions and puts them in RAM; Decode: instructions are decoded into binary so the CPU can understand them; Execute: CPU carries out those instructions. The computer speedily performs this process continuously from the moment you turn on your computer, to the moment you turn it off.  
 
 ### Expressions & Statements  
 
@@ -97,19 +103,22 @@ Statements: a unit of code that does something, like creating a variable or disp
 
 We saw this earlier when we typed an expression at the prompt, the interpreter evaluated it, which means it finds the value of the expression and returns the result. When you type in a statement, the interpreter executes it, meaning it does whatever the statement says.  
 
-### Day Two    
-
-`09/26/2017`  
-
 ### Variables & Strings  
 
-### User Input
+```python  
+"This is a string!"
+
+'This is also a string!'
+```  
+
+Let's combine variables and strings. 
+
+### User Input  
 #### I/O  
 
 ### Computational Thinking  
 
 Useful ways to approach and solve problems --not just problems involving programming, but every problem! 
-
 
 ### Layers of a Computer System  
 #### Abstraction  
