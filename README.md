@@ -24,11 +24,11 @@ By the end of Code Em, students will -
 `09/19/2017`  
 
 **Introductions:** Share name, age, grade, and programming experience.  
-*5-10min*
+*5-10 min*
 
 ### How to Think  
 #### Like a Computer Scientist  
-*10min*  
+*10 min*  
 
 Take a problem that at first, may seem overwhelming, or not "attackable" with a program, then break the problem into smaller manageable problems where we can use computation to solve. See how the smaller problems together make up the larger one. Think about computational thinking as useful ways to approach and solve problems using these steps: decomposition, generalization, recognize patterns, make plan (or algorithm) and carry it out. Example, Clean the Whole House problem.  
 
@@ -47,12 +47,12 @@ Take a problem that at first, may seem overwhelming, or not "attackable" with a 
 | Classes      | Alexa Skills     |
 
 ### Get on Same Page  
-*5min*  
+*5 min*  
 
 We have returning students, as well as new students. We will do a little review first and help eachother to become equally confident with coding.  
 
 ### GitHub & Slack  
-*10min*
+*10 min*
 
 Each student will create their our own GitHub and Slack accounts. For those who already have both, make sure they can log in and have them help their peers get set up. Students will use their GitHub account to keep track of all their progress. There should be a time set towards the end of each class to have every student push their code to their own repository. Slack will be used to communicate with one another by asking questions, input, etc. Record student emails, to send slack invitations; record GitHub usernames, to invite to slackbot repo.
 
@@ -60,7 +60,7 @@ Each student will create their our own GitHub and Slack accounts. For those who 
 
 ### Quick Computer History  
 
-*5-10min*
+*5-10 min*
 
 Early computers were tools (or mechanical devices) people used to help them calculate math problems. A modern computer is a device that can be programmed to perform a task. From Talley Sticks, to the Babbage Machine --end with Ada Lovelace, recognized as the first computer programmer.  
 
@@ -105,10 +105,30 @@ We saw this earlier when we typed an expression at the prompt, the interpreter e
 
 ### Variables & Strings  
 
-```python  
-"This is a string!"
+Review msg.py
 
-'This is also a string!'
+Create a variable called: 'message' and have it hold a value.
+```python  
+message = "Hello Python world!"
+```  
+Now, Python knows message to be the string, "Hello Python World!" How can we output the value?  
+```python  
+print(message)
+```  
+
+Let's say we have two variables, each equal to a number.  
+```python  
+a = 5  
+b = 10  
+```  
+How can we add these two numbers together?  
+```python  
+answer = a + b  
+print(answer)
+```  
+or  
+```python  
+print(a+b)  
 ```  
 
 Let's combine variables and strings. 
