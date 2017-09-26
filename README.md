@@ -131,6 +131,15 @@ or
 print(a+b)  
 ```  
 
+Look at the whole program. Can you find the statement three statements, expression, and two integers?
+```python  
+a = 5  
+b = 10  
+answer = a + b  
+print(answer)
+```  
+
+
 Let's combine variables and strings. 
 
 ### User Input  
