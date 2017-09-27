@@ -15,3 +15,6 @@ After Class Notes
 	# went over expressions, statments, variable and string concatenation
 	# one successful git push!
 	# start on user input next week
+	
+	# create student github with EZ credentials for the few who are having trouble with configuring GitHub accts.
+		# Have those clone/push to this repo.
