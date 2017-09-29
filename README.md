@@ -168,7 +168,7 @@ Abstraction Examples:
 
 * A Person Driving a Car  
   - The only thing they need to focus on is the road ahead.
-  - It is unnecessary to worry about details of how the engine or electornics of the car work.
+  - It is unnecessary to worry about details of how the engine or electronics of the car work.
 
 * Fast Food Restaurant  
   - At many restaurants, the names of meals have corresponding numbers.
