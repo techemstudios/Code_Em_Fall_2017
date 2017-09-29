@@ -4,7 +4,7 @@
 
 ### Sept 19 - Dec 12  
 
-Initial slides to be used found in [reveal-deck](https://github.com/techemstudios/code_em_fall_2017/tree/master/reveal-deck), in slides-code-em.html --check the latest version. 
+Initial slides to be used found in [reveal-deck](https://github.com/techemstudios/code_em_fall_2017/tree/master/reveal-deck), in slides-code-em.html --check the latest version.
 
 *Note:* The content for each section and day below, as well as possible times of each lesson will continuously be populated. The times for each lesson will update with "real" times after each class.    
 
@@ -49,7 +49,7 @@ Take a problem that at first, may seem overwhelming, or not "attackable" with a 
 ### Get on Same Page  
 *5 min*  
 
-We have returning students, as well as new students. We will do a little review first and help eachother to become equally confident with coding.  
+We have returning students, as well as new students. We will do a little review first and help one another to become equally confident with coding.  
 
 ### GitHub & Slack  
 *10 min*
@@ -140,7 +140,7 @@ print(answer)
 ```  
 
 
-Let's combine variables and strings. 
+Let's combine variables and strings.
 
 ### User Input  
 #### I/O  
@@ -167,9 +167,9 @@ When we are working in one layer, we do not need to concern ourselves with the i
 Abstraction Examples:  
 
 * A Person Driving a Car  
-  - The only thing they need to focus on is the road ahead. 
+  - The only thing they need to focus on is the road ahead.
   - It is unnecessary to worry about details of how the engine or electornics of the car work.
-  
+
 * Fast Food Restaurant  
   - At many restaurants, the names of meals have corresponding numbers.
   - The food prep has been trained to recognize the meal number, not worry about the full name.
