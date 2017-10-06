@@ -128,7 +128,7 @@ print(answer)
 ```  
 or  
 ```python  
-print(a+b)  
+print(a + b)  
 ```  
 
 Look at the whole program. Can you find the three statements, expression, and two integers?
@@ -238,7 +238,7 @@ Class activity: make a list of dictionaries with student name, github username, 
 
 ### Binary Search Tree  
 
-How computer efficiently search an ordered list.  
+How a computer efficiently searches an ordered list.  
 
 Like a sorted list, this is a logical ordering of the nodes.  
 
