@@ -17,6 +17,7 @@ def handle_command(command):
     return response
 
 print ("Hi, I am sirexa, your own personal bot. Awaiting your command.")
+
 while True:
     command = raw_input('\nsirexa -> ')
     response = handle_command(command)
