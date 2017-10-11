@@ -26,4 +26,23 @@ After Class Notes
 		# store input
 		# challenge: output something "sensible" with the input from user
 	# Still, slow progress. Likely need to break up into groups.
-	
+
+
+# 10/10
+	# Ada Lovelace day: review, who was she. What is today about?
+	# Introduce Computational Thinking -clean whole house problem
+	# Abstraction: Look at layers of a computer system
+	# Functions: built-in functions we've used: print(), input()/raw_input()
+		# Code block
+		# passing arguments to a function, arguments
+		# Encapsulation: another example of Abstraction
+			# test it out by creating a function with a variable inside, then try to call the variable when outside
+def hello():
+	name = raw_input("tell me your name: ")
+
+print name
+	# Case Study: Interface Design with turtle
+	# draw a write angle using turtle 'methods';
+	# challenge: add instructions to make a complete square
+		# introduce for loop
+		# stopped before while loop and creating a square function
