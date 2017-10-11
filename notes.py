@@ -46,3 +46,7 @@ print name
 	# challenge: add instructions to make a complete square
 		# introduce for loop
 		# stopped before while loop and creating a square function
+
+		# majority of class is having trouble knowing exactly what to type
+		# though, the content is on the slides. May be best to display Python GUI
+		# on tv screen to walk through the programs, rather than slides.  
