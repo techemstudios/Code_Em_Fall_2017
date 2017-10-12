@@ -12,3 +12,5 @@ def moon_weight():
         weight = weight + increase
         moon_weight = weight * 0.165
         print('Year %s is %s' % (year, moon_weight))
+
+moon_weight()
