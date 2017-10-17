@@ -140,10 +140,20 @@ print(answer)
 ```  
 
 
-Let's combine variables and strings.
+Let's combine variables and strings.  
+
+### Day Three    
+
+`10/03/2017`  
 
 ### User Input  
 #### I/O  
+
+### Day Four      
+
+`10/10/2017`  
+
+*Review: Ada Lovelace.*    
 
 ### Computational Thinking  
 
@@ -178,29 +188,48 @@ Abstraction Examples:
 ### Functions  
 #### Think Abstraction: Encapsualtion  
 
-Test Jupyter Notebook lesson.  
+~~Test Jupyter Notebook lesson.~~    
 
-Close look at the parts of a function statement.  
+Close look at the parts of a function statement. Relate function layout to mathematics: input --> output.   
 
-### Day Three    
+Test the concept of encapsulation by creating a simple function with a variable inside, then try to call the variable (or attempt returning its value) outside of the function itself.  
 
-`10/03/2017`  
+### Case Study  
 
-### Case Study
-
-#### Interface Design with the Turtle Module  
+#### Interface Design with the Turtle Module   
 
 **Objectives**  
 
-* modules  
-* methods  
-* for loops  
-* Defining Functions  
+* Modules  
+* Methods  
+* For loops  
+* Defining functions  
 * arguments & parameters  
 * Computational Thinking  
-  - Pattern Recognition: Encapsualtion: **DRY**    
+  - Pattern Recognition: Encapsulation: **DRY**    
   - Generalization  
 * Refactoring  
+
+Provide the instructions to draw a right angle:  
+
+```python  
+import turtle
+frank = turtle.Turtle()
+
+frank.fd(100)
+frank.lt(90)
+frank.fd(100)
+
+turtle.mainloop()
+```  
+
+Have the class add instructions to draw a complete square. Most students will likely end up with several of the same instructions. Introduce loops here. We can use a simple `for` loop to help not repeat ourselves, by having the two instructions, `frank.fd(100)` and `frank.lt(90)` repeat four times. So, we'll end up with same solution, only less code.  
+
+### Day Five        
+
+`10/17/2017`  
+
+Continue with the turtle module. Introduce `while` loops.  
 
 #### The Software Development Process  
 
@@ -225,7 +254,7 @@ Engineers are concerned with building things to be more efficient.
 
 Temperature warnings program.  
 
-### SlackBot
+### SlackBot  
 ### Simple Command Response  
 
 command_response.py  
