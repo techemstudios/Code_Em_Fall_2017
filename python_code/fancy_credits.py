@@ -15,13 +15,13 @@ print("\t\t\tFancy Credits")
 
 print("\t\t\t \\ \\ \\ \\ \\ \\ \\")
 print("\t\t\t\tby")
-print("\t\t\tMayfly")
+print("\t\t\t\tMayfly")
 print("\t\t\t \\ \\ \\ \\ \\ \\ \\")
 
 print("\nSpecial thanks goes out to:")
-print("The Odonata, Dragonfly \'The Side of the Rock,\' who never says \"can\'t.\"")
+print("The Odonata, Dragonfly \'This Side of the Rock,\' who never says \"can\'t.\"")
 
 # sound the system bell
 print("\a")
 
-input("\n\nPress the enter key to exit.")
+raw_input("\n\nPress the enter key to exit.")
