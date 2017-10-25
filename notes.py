@@ -12,7 +12,7 @@ After Class Notes
 # 9/26
 	# Took way to long to configure GitHub accts
 		# Next time, send instructions to do at home
-	# went over expressions, statments, variable and string concatenation
+	# went over expressions, statements, variable and string concatenation
 	# one successful git push!
 	# start on user input next week
 
@@ -50,3 +50,23 @@ print name
 		# majority of class is having trouble knowing exactly what to type
 		# though, the content is on the slides. May be best to display Python GUI
 		# on tv screen to walk through the programs, rather than slides.  
+
+# 10/17
+	# Turtle Graphics (Case Study-style)
+	# driving home the idea of giving instructions to computer to do something
+		# right angle
+		# full square
+		# for loop intro to complete square
+		# create your own function --> "encapsulation"
+		# generalize the function to highlight code reusability "generalization"
+
+# 10/24
+	# brainteaser (Day 6)
+		# testing competence in basics:
+			# fire up a python program
+			# kick off complete thoughts
+			# general cs
+		# challenge to create a simple calculator program using turtle graphics to draw answer
+		# quick slackbot intro --> to dive in fully next week
+		
+
