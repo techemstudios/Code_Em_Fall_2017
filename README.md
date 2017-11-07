@@ -229,15 +229,121 @@ Have the class add instructions to draw a complete square. Most students will li
 
 `10/17/2017`  
 
-Continue with the turtle module. Introduce `while` loops.  
+Continue with the turtle module. Introduce `while` loops. A while loop runs *as long as* a certain condition is `True`.  
+
+```python  
+import turtle
+t = turtle.Pen()
+
+while True:
+    t.fd(100)
+    t.lt(90)
+    # note: we can change the degrees of the angle to draw some unique shapes.
+```  
+
+What if we wanted to use the code to a draw a square more than once? We could write the same code again. To practice being efficient, we could copy and paste. However, we can still be more efficient. We can do this by creating a callable function whih holds the code to draw a square. Challenge the class to create their own function which draws a square once called. Reiterate built-in functions we have already used: `print()`, `raw_input()`, etc. We don't have to see the code that makes these functions do what they do. We just know that it works and we can use it, which highlights the concept of abstraction. After we create our own function and test it so it works, we don't have to worry about the actual code when we use the function further, we just focus on calling (or running, or exectuting) the function.  
+
+We start creating our own function by defining a name for it, followed by a set of parentheses.  
+
+```python  
+# pull the content from the turtle python file
+import turtle
+
+frank = turtle.Turtle()
+
+def square():
+    """ Function that draws a square using turtle graphics. """ # This line is known as a docstring, describes what is happening.
+    for i in range(4):
+        frank.fd(100)
+        frank.lt(90)
+
+# call the function, with its name followed by a set of parentheses.
+square()
+```  
+
+This function does what we want it to; draws a square. But, this function is limited to drawing a square for one turtle, "frank". Enter, Generalization (buzzword?). We could *generalize* this function, thus making our code even more efficient. We can generalize the function so that more than one turtle can use it. Below, we can see what that looks like.  
+
+```python  
+import turtle
+
+# Set the names of our turtles
+frank = turtle.Turtle()
+ada = turtle.Turtle()
+
+def square(t):
+    """Non-specific function that draws a square."""
+    for i in range(4):
+        t.fd(100)
+        t.lt(90)
+
+# call the function, pass the name of the turtle as an argument in the parentheses.
+square(frank)
+square(ada)
+
+# the method, mainloop(), keeps the window open when the turtle finsihes the instructions.
+turtle.mainloop()
+```  
+
+You can give, or pass values to a function. You place these values (arguments) in between the parentheses. In any function you define, you can leave the parentheses empty, or you can generalize it by inserting a parameter (or multiple parameters). In the case above, the paremeter is set to a generic, "t". By doing this, we are able to have more than one turtle use the same function; rather than defining a new function for each turtle. To drive home the concept of abstraction, any turtle we create thereafter does not need to know what the contents the function holds, they only need to know we can call the function, and the function does what we want it to do.
+
+We can further generalize by adding more parameters. This will also help us to see better there is more than one turtle drawing to the window. Just add a new parameter, length to the function defintion, then; instead of telling the turtle to draw 100 pixels forward(fd), insert length. So, `t.fd(100)` changes to `t.fd(length)`. Now, when we call the function we can pass the arguments, turtle name AND length. This way, we end up with multiple drawn squares with varying lengths.  
+
+**Code Challenge:** Create a simple calculator program (as a function) that adds two numbers from user input and draws the answer using turtle graphics. Bonus: have the calculator accept subtraction, multiplication, and division. Extra Bonus: generalize the function; have every input from the user as a parameter.  
 
 #### The Software Development Process  
 
 Following a process for writing your programs will help you to be more efficient and help you reach your goals. When you need to create a large program, it can be a daunting challenge and almost impossible without a systematic approach.  
 
+### Day Six          
+
+`10/24/2017`  
+
+### SlackBot  
+
+### Simple Command Response  
+
+command_response.py  
+
+```python  
+"""
+A simple command response program.
+"""
+
+# Put your commands here
+# Keep the values lowercase
+COMMAND1 = "what?"
+
+# Your handling code goes in this function
+def handle_command(command):
+    """
+        Determine if the command is valid. If so, take action and return
+        a response, if necessary.
+    """
+    response = ""
+    if command.find(COMMAND1) >= 0:
+        response = "Huh?"
+        
+    else:
+        response = "Why thank you, I don't know what else to say."
+        
+    return response
+
+print ("Hi, I am sirexa, your own personal bot. Awaiting your command.")
+while True:
+    command = raw_input('\nsirexa -> ')
+    response = handle_command(command)
+    print response
+```  
+
+Have the class come up with their own commands for the program (potential slackbot) to handle.  
+
+Go over the Slackbot class project: [The Power of Python](http://techemstudios.com/decks/slackpi-to-alexa/#/)  
+
+From here, set up students on the GitHub repository, **code_em** so they can update the Slackbot on the Raspberry Pi with their own commands and test their commands via Slack.  
+
 #### Computer Hardware History  
 
-Engineers are concerned with building things to be more efficient.  
+Engineers are concerned with building things more efficiently.  
 
 **Objectives**  
 
@@ -253,12 +359,6 @@ Engineers are concerned with building things to be more efficient.
 #### Conditions: Events: if this, then this  
 
 Temperature warnings program.  
-
-### SlackBot  
-### Simple Command Response  
-
-command_response.py  
-[The Power of Python](http://techemstudios.com/decks/slackpi-to-alexa/#/)
 
 ### Data Structures  
 #### Python Lists, Tuples, Dictionaries  
