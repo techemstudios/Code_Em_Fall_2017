@@ -76,3 +76,7 @@ print name
 	# temp humidity program
 		# challenge: make your own temp warnings
 	# slackbot code_em: push first changes to repo, then test sirexa
+
+	# only four weeks left... likely jump to OOD
+
+	# break up class into groups based on skill level to get more done
