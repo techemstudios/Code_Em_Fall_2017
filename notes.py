@@ -71,3 +71,8 @@ print name
 		
 # 11/07
 	#
+
+# 11/14
+	# temp humidity program
+		# challenge: make your own temp warnings
+	# slackbot code_em: push first changes to repo, then test sirexa
