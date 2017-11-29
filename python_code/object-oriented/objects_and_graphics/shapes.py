@@ -1,9 +1,16 @@
+"""
+More on classes and objects.
+
+We will call already-created objects from graphics.py
+"""
+
 from graphics import *
 
+# Creates a place on the screen where our graphics will appear
 win = GraphWin('Shapes')
 
-### Draw a red circle centered at point (100, 100)
-### with radius 30
+### Draw a red circle centered at point (300, 300)
+### with radius 45
 center = Point(300, 300)
 circ = Circle(center, 90)
 circ.setFill('red')
