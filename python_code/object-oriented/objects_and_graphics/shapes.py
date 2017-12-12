@@ -16,6 +16,8 @@ circ = Circle(center, 90)
 circ.setFill('red')
 circ.draw(win)
 
+# Uncomment the following to draw other objects to the screen
+
 ##### Put a textual label in center of circle
 ##label = Text(center, "Red Circle")
 ##label.draw(win)
