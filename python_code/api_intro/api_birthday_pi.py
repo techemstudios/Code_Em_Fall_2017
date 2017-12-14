@@ -1,6 +1,6 @@
 import requests
 
-r = requests.get('https://raw.githubusercontent.com/joetechem/birthday_pi/master/million_pi_digits/million_pi_digits.txt')
+r = requests.get('https://raw.githubusercontent.com/ehmatthes/pcc/master/chapter_10/pi_million_digits.txt')
 
 pi_string = r.text
 

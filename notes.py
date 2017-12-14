@@ -68,9 +68,12 @@ print name
 			# general cs
 		# challenge to create a simple calculator program using turtle graphics to draw answer
 		# quick slackbot intro --> to dive in fully next week
+
+# 10/31
+	# Halloween (no class)
 		
 # 11/07
-	#
+	# 
 
 # 11/14
 	# temp humidity program
@@ -80,3 +83,19 @@ print name
 	# only four weeks left... likely jump to OOD
 
 	# break up class into groups based on skill level to get more done
+
+# 11/21
+	# Object-oriented: Turkey class creation!
+	# Quick exercise in using matplotlib to visualize fake temperature data
+
+# 11/28
+	# graphics.py
+		# used graphics.py to draw shapes to screen
+
+# 12/4
+	# getting mouse clicks with graphics.py
+	# three clicks make a triangle
+
+# 12/12
+	# more faces of computer science: Turing and Hopper
+	# find your birthday in the first million digits of pi.py
