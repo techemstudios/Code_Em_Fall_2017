@@ -4,11 +4,11 @@ number = random.randint(1, 100)
 print("I'm thinking of a number between 1 and 100.")
 GameRunning = True
 
-while True:
+while GameRunning:
     guess = int(raw_input("Guess a number between 1-100: "))
 
     if guess == number:
-        GameRunning = True
+        GameRunning = False
         print("You guessed correctly!")
         
     elif guess > number:
